@@ -1,0 +1,10 @@
+main {
+  display: flex;
+}
+#sidebar {
+  width: 200px;
+}
+#main {
+  flex: 1;
+  background-color: #ddd;
+}

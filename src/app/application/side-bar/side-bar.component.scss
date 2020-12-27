@@ -1,0 +1,11 @@
+.side-bar {
+  min-height: calc(100vh - 56px);
+
+  background: rgb(200, 123, 251);
+  background: linear-gradient(
+    135deg,
+    rgba(159, 23, 250, 0.612) 0%,
+    rgba(250, 41, 170, 0.645) 100%
+  );
+  color: #fff;
+}

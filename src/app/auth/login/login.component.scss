@@ -1,0 +1,28 @@
+#login {
+  .login {
+    min-height: 100vh;
+    background: rgb(200, 123, 251);
+    background: linear-gradient(
+      165deg,
+      rgba(159, 23, 250, 0.612) 0%,
+      rgba(250, 41, 170, 0.645) 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .login-section {
+      background-color: #fff;
+      width: 100%;
+      max-width: 360px;
+      padding: 30px 40px 30px;
+      border-radius: 3px;
+
+      .login-btn {
+        background-color: rgb(253, 72, 72);
+        outline: none;
+        border: none;
+      }
+    }
+  }
+}
